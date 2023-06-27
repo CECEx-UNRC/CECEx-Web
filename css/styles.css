@@ -1,0 +1,29 @@
+.navbar-custom{
+    background-color: #FF8D0E;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #FFEAB2;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #FF8D0E;
+    border-radius: 5px;
+}
+
+#cecex{
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #FF8D0E;
+}
+
