@@ -27,18 +27,18 @@ footer{
     background-color: #FF8D0E;
 }
 
-.facebook-button {
+#facebook-button {
     background-color: #3b5998;
 }
 
-.twitter-button {
+#twitter-button {
     background-color: #55acee;
 }
 
-.instagram-button {
+#instagram-button {
     background-color: #ac2bac;;
 }
 
-.biblioteca{
+#biblioteca{
     background-image: url('/img/biblioteca-digital.jpg');
 }
