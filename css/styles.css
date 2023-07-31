@@ -42,3 +42,9 @@ footer{
 #biblioteca{
     background-image: url('../img/biblioteca-digital.jpg');
 }
+
+@media (max-width: 576px) {
+    .carousel-caption {
+      font-size: 1rem;
+    }
+}
