@@ -50,9 +50,12 @@ footer{
 }
 
 .main-custom{
-    background-color: #001F3F;
+    /*(background-color: #001F3F;*/
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,31,63,1) 85%, rgba(0,212,255,1) 100%);
 }
 
 .texto-fondo-azul{
     color: #F0F0F0;
 }
+
