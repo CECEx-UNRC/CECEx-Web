@@ -59,9 +59,11 @@ footer{
     flex-direction: row;
     align-items: center;
 }
- .card-title {
+
+.card-title {
     font-weight: bold;
- }
+}
+
 .card img {
     width: 30%;
     border-top-right-radius: 0;
