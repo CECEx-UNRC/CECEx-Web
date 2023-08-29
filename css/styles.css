@@ -1,5 +1,5 @@
 .navbar-custom{
-    background-color: #FF8D0E;
+    background-color: #295057;
 }
 
 .navbar-nav .nav-link {
@@ -15,7 +15,6 @@
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #FF8D0E;
     border-radius: 5px;
 }
 
@@ -24,7 +23,7 @@
 }
 
 footer{
-    background-color: #FF8D0E;
+    background-color: #295057;
 }
 
 #facebook-button {
@@ -43,19 +42,47 @@ footer{
     background-image: url('../img/biblioteca-digital.jpg');
 }
 
-@media (max-width: 576px) {
-    .carousel-caption {
-      font-size: 1rem;
-    }
-}
-
 .main-custom{
-    /*(background-color: #001F3F;*/
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,31,63,1) 85%, rgba(0,212,255,1) 100%);
+    background-color: #f5f5dc;
 }
 
 .texto-fondo-azul{
     color: #F0F0F0;
 }
 
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    flex-direction: row;
+    align-items: center;
+}
+ .card-title {
+    font-weight: bold;
+ }
+.card img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 50%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .card img {
+      width: 40%;
+    }
+}
