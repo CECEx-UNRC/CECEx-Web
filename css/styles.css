@@ -50,7 +50,7 @@ footer{
     color: #F0F0F0;
 }
 
-.carousel-caption{
+.carousel-caption-custom{
     top: 50%;
     transform: translateY(-50%);
 }
