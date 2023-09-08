@@ -87,9 +87,7 @@ footer{
     .card img {
       width: 50%;
     }
-}
-@media only screen and (max-width: 1200px) {
-    .card img {
-      width: 40%;
+    .card {
+        flex-direction: column;
     }
 }
