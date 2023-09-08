@@ -35,7 +35,11 @@ footer{
 }
 
 #instagram-button {
-    background-color: #ac2bac;;
+    background-color: #ac2bac;
+}
+
+#whatsapp-button {
+    background-color: #25d366;
 }
 
 #biblioteca{
