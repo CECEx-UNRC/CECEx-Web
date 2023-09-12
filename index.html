@@ -1,126 +1,204 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a CECEx Web</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/d412d8e1a9.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-</head>
-<body class="main-custom">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-            <div class="container-fluid">
-              <img src="img/Logos1.png" alt="Logo1" width="auto" height="100" class="float-left">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span
-                  class="navbar-toggler-icon"></span> </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto">
-                  <a class="nav-link" href="index.html">Inicio</a>
-                  <a class="nav-link" href="about.html">Sobre Nosotros</a>
-                  <a class="nav-link" href="services.html">Servicios</a>
-                  <a class="nav-link" href="biblioteca.html">Bibioteca Digital</a>
-                  <a class="nav-link" href="links.html">Links Importantes</a>
-                  <a class="nav-link" href="contact.html">Contacto</a>
-                </div>
-              </div>
-              <div class="d-flex ml-auto">
-                <img src="img/Logos2.png" alt="Logo2" width="auto" height="100" class="float-right">
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-      <div id="carouselEjemplo" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/fotocopiadora2.jpg" class="d-block w-100 p-5" alt="...">
-            <div class="carousel-caption d-md-block p-5">
-              <h1>Bienvenidos a CECEx Web</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/JUPA.jpg" class="d-block w-100 p-5 opacity-75" alt="...">
-            <div class="carousel-caption d-md-block mb-3">
-              <h1>No se pierdan las Jornadas de Puertas Abiertas!! Hagan click en el boton para inscribirse.</h1>
-              <a href="https://www.unrc.edu.ar/unrc/ingresantes/insc-jupa.php" target="_blank" rel="noopener">
-                <button type="button" class="btn btn-primary">Inscribirse</button>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-              <img src="img/libreria3.jpg" class="d-block w-100 p-5" alt="...">
-          </div>
-        </div>
-  
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselEjemplo" data-bs-slide-to="0" class="active" title="Primer SLide"></button>
-            <button type="button" data-bs-target="#carouselEjemplo" data-bs-slide-to="1" title="Segundo Slide"></button>
-            <button type="button" data-bs-target="#carouselEjemplo" data-bs-slide-to="2" title="Tercer Slide"></button>
-        </div>
-    
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEjemplo" data-bs-slide="prev" title="Ir al anterior">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselEjemplo" data-bs-slide="next" title="Ir al siguiente">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-    </main>
-    <footer class="text-white">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 p-4">
-            <h5 class="mb-3">Contacto</h5>
-            <p>
-              <i class="fas fa-home mr-3"></i>
-              Dirección: Ruta Nacional 36 km 601, Río Cuarto, Córdoba, Argentina
-            </p>
-            <p>
-              <i class="fa-solid fa-phone mr-3"></i>
-              Teléfono: +54 358 4676200 Interno:388</p>
-            <p>
-              <i class="fas fa-envelope mr-3"></i>Email: dinamica.exactas.unrc@gmail.com</p>
-          </div>
-          <div class="col-md-6 p-4">
-            <h5 class="mb-3">Redes Sociales</h5>
-            <a
-              class="btn text-white btn-floating m-1"
-              href="https://www.facebook.com/dinamica.exactas"
-              role="button"
-              title="Facebook"
-              target="_blank" 
-              rel="noopener"
-              id="facebook-button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn text-white btn-floating m-1"
-              href="https://twitter.com/dinamicaexactas"
-              role="button"
-              title="Twitter"
-              target="_blank" 
-              rel="noopener"
-              id="twitter-button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn text-white btn-floating m-1"
-              href="https://www.instagram.com/dinamica.exactas.unrc/"
-              role="button"
-              target="_blank" 
-              rel="noopener"
-              title="Instagram"
-              id="instagram-button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bienvenidos a CECEx Web</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+		<script
+			src="https://kit.fontawesome.com/d412d8e1a9.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	</head>
+	<body class="main-custom">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+				<div class="container-fluid">
+					<img
+						src="img/Logos1.png"
+						alt="Logo1"
+						width="auto"
+						height="100"
+						class="float-left"
+					/>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav mx-auto">
+							<a class="nav-link" href="index.html">Inicio</a>
+							<a class="nav-link" href="about.html">Sobre Nosotros</a>
+							<a class="nav-link" href="services.html">Servicios</a>
+							<a class="nav-link" href="biblioteca.html">Bibioteca Digital</a>
+							<a class="nav-link" href="links.html">Links Importantes</a>
+							<a class="nav-link" href="contact.html">Contacto</a>
+						</div>
+					</div>
+					<div class="d-flex ml-auto">
+						<img
+							src="img/Logos2.png"
+							alt="Logo2"
+							width="auto"
+							height="100"
+							class="float-right"
+						/>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div
+				id="carouselEjemplo"
+				class="carousel carousel-dark slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="img/fotocopiadora2.jpg"
+							class="d-block w-100 p-5"
+							alt="..."
+						/>
+						<div class="carousel-caption d-md-block p-5">
+							<h1>Bienvenidos a CECEx Web</h1>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="img/JUPA.jpg"
+							class="d-block w-100 p-5 opacity-75"
+							alt="..."
+						/>
+						<div class="carousel-caption d-md-block mb-3">
+							<h1>
+								No se pierdan las Jornadas de Puertas Abiertas!! Hagan click en
+								el boton para inscribirse.
+							</h1>
+							<a
+								href="https://www.unrc.edu.ar/unrc/ingresantes/insc-jupa.php"
+								target="_blank"
+								rel="noopener"
+							>
+								<button type="button" class="btn btn-primary">
+									Inscribirse
+								</button>
+							</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/libreria3.jpg" class="d-block w-100 p-5" alt="..." />
+					</div>
+				</div>
+
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselEjemplo"
+						data-bs-slide-to="0"
+						class="active"
+						title="Primer SLide"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselEjemplo"
+						data-bs-slide-to="1"
+						title="Segundo Slide"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselEjemplo"
+						data-bs-slide-to="2"
+						title="Tercer Slide"
+					></button>
+				</div>
+
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselEjemplo"
+					data-bs-slide="prev"
+					title="Ir al anterior"
+				>
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselEjemplo"
+					data-bs-slide="next"
+					title="Ir al siguiente"
+				>
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+		</main>
+		<footer class="text-white">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 p-4">
+						<h5 class="mb-3">Contacto</h5>
+						<p>
+							<i class="fas fa-home mr-3"></i>
+							Dirección: Ruta Nacional 36 km 601, Río Cuarto, Córdoba, Argentina
+						</p>
+						<p>
+							<i class="fa-solid fa-phone mr-3"></i>
+							Teléfono: +54 358 4676200 Interno:388
+						</p>
+						<p>
+							<i class="fas fa-envelope mr-3"></i>Email:
+							dinamica.exactas.unrc@gmail.com
+						</p>
+					</div>
+					<div class="col-md-6 p-4">
+						<h5 class="mb-3">Redes Sociales</h5>
+						<a
+							class="btn text-white btn-floating m-1"
+							href="https://www.facebook.com/dinamica.exactas"
+							role="button"
+							title="Facebook"
+							target="_blank"
+							rel="noopener"
+							id="facebook-button"
+							><i class="fab fa-facebook-f"></i
+						></a>
+						<a
+							class="btn text-white btn-floating m-1"
+							href="https://twitter.com/dinamicaexactas"
+							role="button"
+							title="Twitter"
+							target="_blank"
+							rel="noopener"
+							id="twitter-button"
+							><i class="fab fa-twitter"></i
+						></a>
+						<a
+							class="btn text-white btn-floating m-1"
+							href="https://www.instagram.com/dinamica.exactas.unrc/"
+							role="button"
+							target="_blank"
+							rel="noopener"
+							title="Instagram"
+							id="instagram-button"
+							><i class="fab fa-instagram"></i
+						></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

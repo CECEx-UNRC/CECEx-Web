@@ -1,93 +1,94 @@
-.navbar-custom{
-    background-color: #295057;
+.navbar-custom {
+	background-color: #295057;
 }
 
 .navbar-nav .nav-link {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .navbar-nav a {
-    color: white;
+	color: white;
 }
 
 .navbar-nav a:hover {
-    color: #FFEAB2;
+	color: #ffeab2;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    border-radius: 5px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	border-radius: 5px;
 }
 
-#cecex{
-    border-radius: 5px;
+#cecex {
+	border-radius: 5px;
 }
 
-footer{
-    background-color: #295057;
+footer {
+	background-color: #295057;
 }
 
 #facebook-button {
-    background-color: #3b5998;
+	background-color: #3b5998;
 }
 
 #twitter-button {
-    background-color: #55acee;
+	background-color: #55acee;
 }
 
 #instagram-button {
-    background-color: #ac2bac;
+	background-color: #ac2bac;
 }
 
 #whatsapp-button {
-    background-color: #25d366;
+	background-color: #25d366;
 }
 
-#biblioteca{
-    background-image: url('../img/biblioteca-digital.jpg');
+#biblioteca {
+	background-image: url("../img/biblioteca-digital.jpg");
 }
 
-.main-custom{
-    background-color: #f5f5dc;
+.main-custom {
+	background-color: #f5f5dc;
 }
 
-.texto-fondo-azul{
-    color: #F0F0F0;
+.texto-fondo-azul {
+	color: #f0f0f0;
 }
 
-.carousel-caption-custom{
-    top: 50%;
-    transform: translateY(-50%);
+.carousel-caption-custom {
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .card {
-    flex-direction: row;
-    align-items: center;
+	flex-direction: row;
+	align-items: center;
 }
 
 .card-title {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .card img {
-    width: 30%;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: calc(0.25rem - 1px);
+	width: 30%;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
 @media only screen and (max-width: 768px) {
-    a {
-      display: none;
-    }
-    .card-body {
-      padding: 0.5em 1.2em;
-    }
-    .card-body .card-text {
-      margin: 0;
-    }
-    .card img {
-      width: 50%;
-    }
-    .card {
-        flex-direction: column;
-    }
+	a {
+		display: none;
+	}
+	.card-body {
+		padding: 0.5em 1.2em;
+	}
+	.card-body .card-text {
+		margin: 0;
+	}
+	.card img {
+		width: 50%;
+	}
+	.card {
+		flex-direction: column;
+	}
 }
