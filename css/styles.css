@@ -92,3 +92,18 @@ footer {
 		flex-direction: column;
 	}
 }
+
+.instagram {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(1);
+	transform-origin: 0 0;
+}
+
+.feed-custom {
+	position: relative;
+	padding-bottom: 85%;
+	max-width: 100%;
+	overflow: hidden;
+}
